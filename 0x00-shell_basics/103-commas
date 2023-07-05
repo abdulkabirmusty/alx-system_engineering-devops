@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap1 | sort -d -k1.1 | awk '{ORS=NR%2?", ":"\n"}1'
+ls -p | tr '\n' ','
